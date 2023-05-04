@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    @apply p-0 m-0 text-base font-light bg-white dark:bg-gray-950;
+}
+
+.title {
+    font-family: "Fredericka the Great", cursive;
+    font-size: 2.25rem;
+}
+
+.subTitle {
+    @apply text-2xl font-bold my-6;
+}
