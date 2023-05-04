@@ -1,7 +1,5 @@
-# Livro de receitas :man_cook:
+## Site de receitas :man_cook:
 
-Olá! Bem vindo ao meu livro de receitas :wave:
+Olá! Bem vindo ao meu Site de receitas.
 
-- Strogonoff de frango
-
-- Pavê
+> **Ainda em desenvolvimento!**
