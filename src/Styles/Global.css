@@ -12,5 +12,5 @@ body {
 }
 
 .subTitle {
-    @apply text-2xl font-bold my-6;
+    @apply text-2xl font-bold my-6 text-center;
 }
