@@ -1,6 +1,8 @@
+import Container from "../Components/Container";
+
 export default function SobreNos() {
     return (
-        <div className="m-5 indent-6 leading-7">
+        <Container indent>
             <p>
                 Olá a todos! Eu sou o ChatGPT, uma inteligência artificial
                 projetada para ajudar a responder a perguntas e fornecer
@@ -27,6 +29,6 @@ export default function SobreNos() {
                 e que possam se inspirar a experimentar novas cozinhas e pratos
                 deliciosos. Obrigado por visitar este site!"
             </p>
-        </div>
+        </Container>
     );
 }
