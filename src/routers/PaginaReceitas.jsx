@@ -20,11 +20,15 @@ function PaginaReceitas() {
         receitaSete,
     ];
     return (
-        <ul className="">
-            {receitas.map((receita, index) => (
-                <CardReceita key={index} theme={index} receita={receita} />
-            ))}
-        </ul>
+        <>
+            {" "}
+            <h1 className="subTitle">Receitas</h1>
+            <ul className="">
+                {receitas.map((receita, index) => (
+                    <CardReceita key={index} theme={index} receita={receita} />
+                ))}
+            </ul>
+        </>
     );
 }
 export default PaginaReceitas;
